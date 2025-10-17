@@ -1,0 +1,25 @@
+clase  BDD
+-¿Por qué distribuir?
+latencia, tolerancia a fallos, escalabilidad y autonomía cosas que no pueden faltar en una BD Distribuidos.
+
+-3 cosas importantes para tener una BDD?
+tranparencia, Integridad de los datos y Seguridad
+
+
+
+-que es una BD Distribuida?
+de forma transparente
+es un conjunto de bases de datos interconectadas en diferentes lugares, que se muestran al usuario como un único sistema de base de datos.
+
+-una foto con 3 cuadros el ultimo es una computadora
+red
+sistema de gestión de bases de datos
+sistemas operativos(clientes)
+
+- BASES DE DATOS LOGICAMENTE?
+ clave forania, consultas
+
+
+latencia -> tiempo en responder
+redes   WAN -> WIFI
+	LAN -> ethernet 

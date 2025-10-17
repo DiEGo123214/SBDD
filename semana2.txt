@@ -1,0 +1,70 @@
+		---clase3----
+
+tengo un mas 1/9/2025
+
+ 	Componentes de SBDD
+Medios de comunicCION: es la red sin eso no habrá lo que es distribución.
+El procesador de transacción: SBDD
+Procesador de datos: se encuentra en el servidor
+
+	Características 
+2. Valida, analiza y descompone la solicitud
+3. descompone la solicitud en varias operaciones
+
+	Clasificación de la BDD
+La BD se clasifican en la centralizada y distribuida
+
+homogéneas:  una sola cosa en común
+heterogenia: 
+
+ 	Niveles de transparencia de una BDD
+T. de distribución: maneja una BD físicamente dispersa como si fuera centralizada. se reconocen 3 nieveles (T. fragmentación, ubicacion, ubicación local)
+ 
+
+-------
+
+
+
+
+---------------------
+	clase 4
+Transparencia de transacción 
+
+Formato: 
+BEGIN WORK  -> inicio de la transacción
+select  -
+update  - -> solicitudes
+delete  -
+
+COMMIT WORK  -> Fin de la transacción 
+
+Niveles de Transparencia
+T. no Distribuida
+T. Distribuida
+T. Remota
+
+solicitud Remota: Permite acceder datos que serán procesados por un procesador 
+
+fragmentación a través de tres pasos: select, dirección 
+
+remotamente se utiliza un gestor
+
+que pasaría si dos fragmentos 
+
+solicitid distribuida permite hacer referencia a datos de varios sitios de procesamiento de datos remotos.
+
+-----Transpariencia de replicación
+si existen copias de objetos de la BD debe ser controlada por el sistema no por el usuario.
+
+----Transpariencia de Falla
+para que la BD no colapse, por la falla de varias solicitudes
+
+---Transparencia de desempeño 
+Reducir el mino el costo total asociado con la ejecución de una solicitud
+
+la BDD es mas costoso pero mas eficiente
+
+---Transparencia de heterogeneidad 
+
+
+----instalando 2 sistemas operativos ubunto la mas estable 20 con graficos

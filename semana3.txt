@@ -1,0 +1,90 @@
+			CLASE 5
+
+concepto conceptual: el diseño de las tablas
+Nivel Interno: Esquema físico ->las replicaciones(vistas)
+
+---Arquitectura ANSI-SPARC
+nivel:
+N. interno: Estructura fisca de la BDD
+N. conceptual: 
+N. externo: 
+---
+	SBDD Homogeneos
+tiene multiples colecciones de datos
+Integra multiples recursos de datos
+Se parecen a un sistema centralizado
+No existe usuarios locales y todos ellos acceden a la BD en una interfaz global
+
+esquema de fragmentación: describe las relaciones globales 
+esquema de asignamiento: especifica el lugar en el cual 
+
+la BD se encuentra en el Esquema Global
+
+	SBDD Heterogeneos 
+se caracterizan por manejar diferentes SBDD en los nodos locales.
+sistema multi-bases de datos(Smulti-BD)
+Existen usuarios locales y globales. el local es el que interactúa con los gestores localmente
+
+
+--en el esquema global se encuentra todo tipos de transaccion
+
+--dentro de cada gestor hay 
+
+	Diseño de una BDD
+
+	Problema de la Fragmentación
+se refiere al particionamiento de la información para siatribuir cada parte en los diferentes ditios de la red.
+--para que fragmentar la BD: para evitar la sobrecarga de datos
+se encuentra en la esquema conceptual
+
+tener una pequeño catalogo de las fragmentación  
+
+la tabla se divide en fragmentos lógicos
+- Fragmentacion. horizontal
+ se refiere a la división de una relación en subconjunto(franmentos) de tuplas(filas).
+cada fragmento se guarda en un nodo diferente.
+
+- F. vertical
+  se refiere a la división de una relación en subconjuntos de atributos(columna)
+
+- F. mezclada(mixta)
+  se refiere a una combinación de estrategias horizontales y verticales.
+
+		CLASE 6
+PREGUNTAS DEL REFEURZO
+El nivel externo presenta un único esquema para todos los usuarios. --->F
+¿Qué afirmación es correcta respecto a la separación entre niveles? A) Los usuarios finales acceden directamente al nivel interno B) El nivel conceptual actúa como puente entre externo e interno C) El nivel externo controla los buffers de disco D) El nivel interno define las vistas de seguridad lógicas --->B
+(Caso breve) Una analista necesita una vista con solo Cliente(nombre, ciudad) para un grupo comercial, sin modificar la base física. a) ¿Qué nivel crea esa vista? b) ¿Qué nivel permanece estable aunque cambien índices y archivos?--> EXTERNO, CONCEPTUAL
+
+
+
+
+
+
+
+
+		pregunta de prueba
+-donde hay seguridad en un BD?
+en medio de comunicación para la transparecia de datos
+
+-¿Por qué distribuir?
+latencia, tolerancia a fallos, escalabilidad y autonomía cosas que no pueden faltar en una BD Distribuidos.
+
+-una foto con 3 cuadros el ultimo es una computadora
+red
+sistema de gestión de bases de datos
+sistemas operativos(clientes)
+
+- preguntas de transacción son 3? ubicación, Tiempo y Tipo o naturaleza
+
+- la BDD es mas costoso pero mas eficiente
+
+cual utilizaría homogéneo o heterogéneo -> homogeneo 
+
+
+Introducción a las Bases de Datos Distribuidas 
+
+Definición: sistema que almacena datos en diferentes ubicaciones físicas, conectadas mediante redes. además la infromacion debe ser transparente
+
+nodo -> un punto donde se va encontrar el fragmento
+
